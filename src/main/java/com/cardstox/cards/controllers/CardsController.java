@@ -11,7 +11,7 @@ import com.cardstox.cards.entities.Card;
 import com.cardstox.cards.services.CardService;
 
 @RestController
-@RequestMapping(value = "/cards")
+@RequestMapping(value = "api/v1/cards")
 public class CardsController {
 
 	@Autowired
